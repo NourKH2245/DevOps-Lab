@@ -63,7 +63,7 @@ challenges:
     decay_solves: 10
     flag_sha256: "df02e29313cfaa8f4faa1fa96434f0507f9f9ba795447a7cf56969b11de49086"
 
-  - slug: the-long-game
+  - slug: amir-challenge
     title: Patience is a side channel
     category: crypto
     points: 500
