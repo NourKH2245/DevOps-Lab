@@ -333,3 +333,7 @@ removing the pin. The versions in this repository passed the audit on
 ## Licence
 
 MIT. See `LICENSE`. You may keep this repository and put it in your portfolio.
+
+## DevOps Practices
+
+Git and GitHub help teams manage code, review changes, improve security, and collaborate efficiently.
