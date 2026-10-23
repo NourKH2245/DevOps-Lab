@@ -55,7 +55,7 @@ challenges:
     decay_solves: 8
     flag_sha256: "2b0b7c7416ef5d9c8a2c68d01a7ded27e8d62d4ab147e3df68827bfe1d1d1351"
 
-  - slug: carved-out
+  - slug: carved-out-second-version
     title: What the filesystem forgot
     category: forensics
     points: 350
