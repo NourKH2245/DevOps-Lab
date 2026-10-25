@@ -119,8 +119,6 @@ def average_score(totals: list[int]) -> float:
     reason the function exists rather than being written inline: the
     scoreboard is requested before anybody has registered, every single time.
     """
-    if not totals:
-        return 0.0
     return sum(totals) / len(totals)
 
 
