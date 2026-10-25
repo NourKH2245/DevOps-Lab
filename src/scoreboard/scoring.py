@@ -82,7 +82,7 @@ def points_for(spec: ChallengeSpec, solve_count: int) -> int:
     if spec.decay_solves < 1:
         raise ValueError(f"{spec.slug}: decay_solves must be at least 1")
 
-    if n - 1 >= spec.decay_solves:
+    if n >= spec.decay_solves:
         return spec.min_points
 
     span = spec.base_points - spec.min_points
