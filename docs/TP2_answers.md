@@ -77,3 +77,17 @@ After the fixes the pipeline is green on PR #8.
 **(b)** `grep -in yaml requirements.txt` shows the line `pyyaml==...` in our own manifest. To confirm: `pip show pyyaml` shows who requires it (`Required-by:`), and `pipdeptree -r -p pyyaml` prints the reverse dependency tree. A transitive dependency would not be in `requirements.txt` and would only appear under another package in that tree.
 
 Note: the key is removed from the code, but it is still in the history of the branch (commit `b478920`). In a real project the key must be revoked at the provider first (see lab sheet 1, Exercise 4).
+
+---
+
+## Command execution evidence
+
+Screenshots of the local verification commands and CI results are stored in `docs/screenshots/`:
+
+- `01_make_install.png` — dependency installation.
+- `02_make_test.png` — automated tests (73 passed).
+- `03_make_lint.png` — lint checks.
+- `04_gitleaks.png` — local secret scan.
+- `05_pip_audit.png` — dependency vulnerability audit.
+- `06_ci_defects.png` — CI results before repairs.
+- `07_ci_success.png` — CI results after repairs.
